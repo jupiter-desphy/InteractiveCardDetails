@@ -48,7 +48,8 @@ form {
 }
 
 label {
-    margin: 10px 0;
+    display: inline-block;
+    margin: 5px 0;
     color:hsl(278, 68%, 11%)
 }
 
