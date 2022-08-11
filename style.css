@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    text-transform: uppercase;
+}
+
+body {
+    margin: 0;
+}
+
+/* -- PROTOTYPES -- */
+
+.min-h-100 {
+    min-height: 100vh;
+}
+
+.w-100 {
+    width: 100%
+}
+.d-flex {
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+
+/* -- SECTIONS -- */
+
+form {
+    max-width: 260px;
+    width: 100%;
+    margin: 24px 50%;
+    font-size: 0.5rem;
+}
+
+label {
+    margin: 10px 0;
+    color:hsl(278, 68%, 11%)
+}
+
+input{
+font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    border-color: hsl(270, 3%, 87%);
+    height: 30px;
+    border-radius: 3px;
+    border-style: solid;
+}
+::placeholder {
+    color: hsl(270, 3%, 87%);
+}
+.wide-2 {
+    width: 3rem;
+}
+#cvc {
+    width: 7.5rem;
+}
+button {
+    height: 30px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(278, 68%, 11%);
+    border-color: hsl(278, 68%, 11%);
+    border-radius: 3px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/*body {
+    background-image: url(images/bg-main-desktop.png);
+}
+*/
